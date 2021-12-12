@@ -24,7 +24,9 @@ class ViewController: UIViewController {
     func reverse(string: String) -> String {
         return String(string.reversed())
     }
-
-
+    
+    func editOnGitHub() -> String {
+        return "AlfredReji"
+    }
 }
 
