@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         let str = reverse(string: b)
         print(str)
         label.text = str
+        
+        print("Edited remote on main branch")
     }
     
     func reverse(string: String) -> String {
