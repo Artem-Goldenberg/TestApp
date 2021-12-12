@@ -8,14 +8,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let b = "StrinG"
         print(b)
-        
-        print(reverse(string: b))
+        label.textAlignment = .center
+        let str = reverse(string: b)
+        print(str)
+        label.text = str
     }
     
     func reverse(string: String) -> String {
